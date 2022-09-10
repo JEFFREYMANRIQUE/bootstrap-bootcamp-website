@@ -1,0 +1,65 @@
+<?php
+include_once('header.php');
+?>
+
+<!--signup form-->
+
+<section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white">SIGN-UP</h2>
+        <p class="lead text-center text-white mb-5">
+            Fill-in the information below and click submit button below.
+        </p>
+
+        <div class="row text-center">
+            <div class="col-sm-3 col-lg-4">
+                right-column
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="container">
+                    <form class="sign-up" method="post">
+                        <div class="mb-0">
+                            <label for="firstName" class="form-label">Firstname</label>
+                            <input type="text" class="form-control" id="firstName">
+                          </div>
+                          <div class="mb-0">
+                            <label for="LastName" class="form-label">Lastname</label>
+                            <input type="text" class="form-control" id="lastName">
+                          </div>
+  
+                        <div class="mb-0">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-0">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-0">
+                            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                left-column
+            </div>
+        </div>
+            
+
+        </div>
+
+    </div>
+</section>
+
+
+<?php
+include_once('footer.php');
+?>
